@@ -26,9 +26,9 @@ public class Transport {
     }
 
     public String printInfo() {
-        return "Volume - " + getVolume()
-                + "\n Capacity - " + getCapacity()
-                + "\n Model - " + getModel();
+        return "Volume is - " + getVolume()
+                + "\n Capacity is - " + getCapacity()
+                + "\n Model is - " + getModel();
 
     }
 
