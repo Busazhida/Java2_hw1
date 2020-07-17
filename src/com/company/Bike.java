@@ -13,6 +13,11 @@ public final class Bike extends Car {
     }
 
     @Override
+    public void printSound(int num, String sound) {
+        super.printSound(num, sound);
+    }
+
+    @Override
     public String printInfo() {
         return super.printInfo()
                 + "\n Speed - " + getSpeed();

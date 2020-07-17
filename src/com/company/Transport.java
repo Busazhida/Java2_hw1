@@ -6,7 +6,7 @@ public class Transport {
     private Model model;
 
 
-    public Transport(double volume, String capacity, Model model){
+    public Transport(double volume, String capacity, Model model) {
         this.volume = volume;
         this.capacity = capacity;
         this.model = model;
@@ -23,6 +23,13 @@ public class Transport {
 
     public String getCapacity() {
         return capacity;
+    }
+
+    public String printInfo() {
+        return "Volume - " + getVolume()
+                + "\n Capacity - " + getCapacity()
+                + "\n Model - " + getModel();
+
     }
 
 }
